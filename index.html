@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tiny Quotes — Legal</title>
+  <meta name="description" content="Privacy Policy and Terms of Use for the Tiny Quotes app." />
+  <style>
+    :root { --apricot:#E8A87C; --bg:#FFF8F1; --ink:#2A2520; --muted:#6B5D52; --line:#EADFD3; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+           color: var(--ink); background: var(--bg); margin: 0; padding: 48px 20px; line-height: 1.6; }
+    .wrap { max-width: 640px; margin: 0 auto; text-align: center; }
+    h1 { font-size: 34px; margin: 0 0 8px; }
+    p.lead { color: var(--muted); margin: 0 0 40px; }
+    .cards { display: grid; gap: 16px; }
+    a.card { display: block; text-decoration: none; color: var(--ink); background: #fff;
+             border: 1px solid var(--line); border-radius: 16px; padding: 24px; text-align: left;
+             transition: border-color .15s ease, transform .15s ease; }
+    a.card:hover { border-color: var(--apricot); transform: translateY(-2px); }
+    a.card h2 { margin: 0 0 4px; font-size: 19px; }
+    a.card span { color: var(--muted); font-size: 15px; }
+    footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Tiny Quotes</h1>
+    <p class="lead">Legal documents</p>
+    <div class="cards">
+      <a class="card" href="./privacy/">
+        <h2>Privacy Policy →</h2>
+        <span>What we collect, how we use it, and how to delete it.</span>
+      </a>
+      <a class="card" href="./terms/">
+        <h2>Terms of Use →</h2>
+        <span>The rules for using Tiny Quotes and its subscription.</span>
+      </a>
+    </div>
+    <footer>© 2026 Tiny Quotes. Contact: support@tinyquotes.app</footer>
+  </div>
+</body>
+</html>

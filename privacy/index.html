@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Tiny Quotes</title>
+  <meta name="description" content="Privacy Policy for the Tiny Quotes app." />
+  <style>
+    :root { --apricot:#E8A87C; --bg:#FFF8F1; --ink:#2A2520; --muted:#6B5D52; --line:#EADFD3; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+           color: var(--ink); background: var(--bg); margin: 0; padding: 48px 20px; line-height: 1.65; }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    a { color: #C77F45; }
+    h1 { font-size: 32px; margin: 0 0 4px; }
+    .updated { color: var(--muted); margin: 0 0 32px; font-size: 14px; }
+    h2 { font-size: 20px; margin: 36px 0 10px; }
+    h3 { font-size: 16px; margin: 20px 0 6px; }
+    p, li { color: var(--ink); }
+    .muted { color: var(--muted); }
+    table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 15px; }
+    th, td { border: 1px solid var(--line); padding: 8px 12px; text-align: left; vertical-align: top; }
+    th { background: #fff; }
+    .back { display: inline-block; margin-bottom: 24px; text-decoration: none; color: var(--muted); }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="../">← Tiny Quotes</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 22 May 2026</p>
+
+    <p>
+      Tiny Quotes (“the App”, “we”, “us”) is a mobile app that lets parents record memorable
+      quotes and moments from their children. We take your privacy seriously and collect only what
+      the App needs to function. This policy explains what we collect, why, who processes it, and
+      how you can delete it.
+    </p>
+    <p>
+      The App contains no advertising, no third-party analytics or tracking SDKs, and does not
+      track you across other apps or websites.
+    </p>
+
+    <h2>1. Who is responsible for your data</h2>
+    <p>
+      The data controller is the developer of Tiny Quotes. For any privacy question or request,
+      contact us at <a href="mailto:support@tinyquotes.app">support@tinyquotes.app</a>.
+    </p>
+
+    <h2>2. What we collect</h2>
+    <table>
+      <tr><th>Data</th><th>Source</th><th>Why</th></tr>
+      <tr>
+        <td>Email address</td>
+        <td>Provided by Apple when you sign in with Apple. This may be Apple’s private relay
+            address if you choose to hide your email.</td>
+        <td>To create and identify your account.</td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>Optionally provided by Apple at first sign-in, or a display name you enter.</td>
+        <td>To personalise the App.</td>
+      </tr>
+      <tr>
+        <td>User identifiers</td>
+        <td>A Supabase account ID and the Apple user identifier.</td>
+        <td>To link your account to your data and your subscription.</td>
+      </tr>
+      <tr>
+        <td>Your content</td>
+        <td>Entered by you: children’s names, optional birthdates and colours, quotes/sayings,
+            dates, and optional context notes and tags.</td>
+        <td>This is the core purpose of the App — storing and showing your content back to you.</td>
+      </tr>
+      <tr>
+        <td>Purchase history</td>
+        <td>Subscription status from Apple, via RevenueCat.</td>
+        <td>To unlock and maintain Tiny Quotes Pro features.</td>
+      </tr>
+    </table>
+    <p class="muted">
+      We do not collect location, contacts, photos, advertising identifiers, or device sensor data.
+    </p>
+
+    <h2>3. How we use your data</h2>
+    <ul>
+      <li>To provide the App’s core features (storing and displaying your children’s quotes).</li>
+      <li>To authenticate you and keep you signed in securely.</li>
+      <li>To manage your Tiny Quotes Pro subscription and entitlement.</li>
+      <li>To schedule <strong>local</strong> notifications on your device (daily quote reminders and
+          anniversary reminders). These are generated on your device; we do not send push
+          notifications from a server.</li>
+    </ul>
+    <p>We do not sell your data, and we do not use it for advertising or profiling.</p>
+
+    <h2>4. Service providers (processors)</h2>
+    <p>We share data only with the providers required to run the App:</p>
+    <table>
+      <tr><th>Provider</th><th>Purpose</th><th>Data</th></tr>
+      <tr>
+        <td>Supabase</td>
+        <td>Database and authentication hosting. Servers are located in the EU (Ireland,
+            eu-west-1).</td>
+        <td>Account, identifiers, and your content.</td>
+      </tr>
+      <tr>
+        <td>RevenueCat</td>
+        <td>Subscription management.</td>
+        <td>Account identifier and subscription/purchase status.</td>
+      </tr>
+      <tr>
+        <td>Apple</td>
+        <td>Sign in with Apple and App Store payments.</td>
+        <td>Authentication and purchase processing per Apple’s own privacy policy.</td>
+      </tr>
+    </table>
+
+    <h2>5. Where your data is stored</h2>
+    <p>
+      Your account and content are stored in Supabase data centres in the European Union
+      (Ireland). Access is protected by row-level security so that you can only ever read or write
+      your own data.
+    </p>
+
+    <h2>6. How we protect your data</h2>
+    <ul>
+      <li>All network traffic uses encryption in transit (HTTPS/TLS).</li>
+      <li>Database access is restricted per-user with row-level security.</li>
+      <li>Your sign-in session is stored in the device’s secure keychain.</li>
+      <li>The Apple token used for account deletion is encrypted at rest.</li>
+    </ul>
+
+    <h2>7. Data retention &amp; deletion</h2>
+    <p>
+      You can delete your account at any time from <strong>Settings → Delete account</strong> inside
+      the App. Deleting your account permanently removes your profile, children, and quotes, and
+      revokes the App’s Sign in with Apple connection. Subscription event logs used for billing and
+      support are automatically removed within 180 days.
+    </p>
+
+    <h2>8. Children’s privacy</h2>
+    <p>
+      Tiny Quotes is intended for use by parents and other adults. It is not directed at children,
+      and we do not knowingly allow children to create accounts. Any information about a child in
+      the App is content that you, the adult account holder, choose to enter and control.
+    </p>
+
+    <h2>9. Your rights</h2>
+    <p>
+      Depending on where you live (for example under the EU GDPR), you may have the right to access,
+      correct, export, or delete your personal data, and to object to or restrict its processing.
+      You can exercise most of these directly in the App, or by contacting
+      <a href="mailto:support@tinyquotes.app">support@tinyquotes.app</a>. You also have the right to
+      lodge a complaint with your local data protection authority.
+    </p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>
+      We may update this policy from time to time. When we do, we will revise the “Last updated”
+      date above. Material changes will be communicated in the App where appropriate.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p>
+      Questions about this policy? Email
+      <a href="mailto:support@tinyquotes.app">support@tinyquotes.app</a>.
+    </p>
+
+    <footer>© 2026 Tiny Quotes. All rights reserved.</footer>
+  </div>
+</body>
+</html>
