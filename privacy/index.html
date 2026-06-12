@@ -29,7 +29,7 @@
   <div class="wrap">
     <a class="back" href="../">← Tiny Quotes</a>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 2 June 2026</p>
+    <p class="updated">Last updated: 12 June 2026</p>
 
     <p>
       Tiny Quotes (“the App”, “we”, “us”) is a mobile app that lets parents record memorable
@@ -38,8 +38,10 @@
       how you can delete it.
     </p>
     <p>
-      The App contains no advertising, no third-party analytics or tracking SDKs, and does not
-      track you across other apps or websites.
+      The App contains no advertising and no analytics or tracking SDKs, and does not track you
+      across other apps or websites. The only third-party SDK that receives data is Sentry, a
+      crash-reporting service that helps us find and fix bugs — what it receives is described in
+      sections 2 and 4 below.
     </p>
 
     <h2>1. Who is responsible for your data</h2>
@@ -82,9 +84,12 @@
         <td>Diagnostic &amp; crash data</td>
         <td>Generated automatically by the App when it encounters an error: an
             error message, a technical stack trace, the App version, the
-            platform, and your account identifier.</td>
+            platform, device and operating-system details, and your account
+            identifier.</td>
         <td>To detect, diagnose, and fix crashes and bugs. Stored on our own
-            Supabase database — not sent to any third-party analytics service.</td>
+            Supabase database and processed by Sentry, our crash-reporting
+            provider (see section 4). Never used for advertising, profiling,
+            or tracking.</td>
       </tr>
     </table>
     <p class="muted">
@@ -118,6 +123,13 @@
         <td>Account identifier and subscription/purchase status.</td>
       </tr>
       <tr>
+        <td>Sentry (Functional Software, Inc.)</td>
+        <td>Crash and error reporting.</td>
+        <td>Error messages, stack traces, App version, device and OS details, and your account
+            identifier — never your email address or name. Reports expire automatically after
+            90 days.</td>
+      </tr>
+      <tr>
         <td>Apple</td>
         <td>Sign in with Apple and App Store payments.</td>
         <td>Authentication and purchase processing per Apple’s own privacy policy.</td>
@@ -128,7 +140,9 @@
     <p>
       Your account and content are stored in Supabase data centres in the European Union
       (Ireland). Access is protected by row-level security so that you can only ever read or write
-      your own data.
+      your own data. Crash reports handled by Sentry are stored on Sentry’s infrastructure, which
+      may be located in the United States, under Sentry’s data processing agreement and standard
+      contractual clauses.
     </p>
 
     <h2>6. How we protect your data</h2>
